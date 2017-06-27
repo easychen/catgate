@@ -1,0 +1,26 @@
+{
+    "manifest_version": 2,
+
+    "name": "CatGate",
+    "description": "基于浏览器插件的数据抓取小工具",
+    "version": "0.90",
+
+    "permissions": [
+        "http://*/*","https://*/*",
+        "tabs",
+        "notifications",
+        "alarms"
+    ],
+    "browser_action": {
+    "default_icon": "catgate.logo.small.png"
+    }
+    ,
+    "background": 
+    {
+        "scripts": ["background.js"]
+    },
+    "web_accessible_resources": [
+        "catgate.logo.small.png"
+    ]
+    
+}
