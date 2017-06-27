@@ -5,7 +5,7 @@ CatGate 是一个基于浏览器插件的数据抓取工具。做成浏览器插
 
 ## 功能
 
-![](http://ww1.sinaimg.cn/large/40dfde6fgy1fh03e5duyoj20jq0i40tz.jpg)
+![](intro.png)
 
 - ① CatGate 会访问这个URL，这个URL应该返回一个Json格式的数组，每一个元素一个字符串（即网址）。点 ② 按钮即可载入数据，并可按 ③ 进行查看，会自动排重。
 - ⑤ CatGate 抓取到数据后，会直接 POST 给这个URL，key 为 content , 通过 $_REQUEST['content'] 即可获取抓取内容。
