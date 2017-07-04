@@ -29,6 +29,8 @@ http://weibo.com/1088413295/F9P1izhY2
 
 ## 安装插件
 
+商店地址：https://chrome.google.com/webstore/detail/catgate/nncgefdjnpnipajdfnindaiockdadpab
+
 如果你不想或不能在Chrome商店安装插件，可手工安装。
 
 chrome > extentsion > load unpacked extension > ./ext
