@@ -1,0 +1,19 @@
+0 info it worked if it ends with ok
+1 verbose cli [ '/usr/local/bin/node', '/usr/local/bin/npm', 'run', 'build' ]
+2 info using npm@2.11.3
+3 info using node@v0.12.7
+4 verbose config Skipping project config: /Users/Easy/.npmrc. (matches userconfig)
+5 verbose stack Error: ENOENT, open '/Users/Easy/package.json'
+5 verbose stack     at Error (native)
+6 verbose cwd /Users/Easy/Code/gitcode/catgate
+7 error Darwin 16.6.0
+8 error argv "/usr/local/bin/node" "/usr/local/bin/npm" "run" "build"
+9 error node v0.12.7
+10 error npm  v2.11.3
+11 error path /Users/Easy/package.json
+12 error code ENOENT
+13 error errno -2
+14 error enoent ENOENT, open '/Users/Easy/package.json'
+14 error enoent This is most likely not a problem with npm itself
+14 error enoent and is related to npm not being able to find a file.
+15 verbose exit [ -2, true ]

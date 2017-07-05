@@ -174,7 +174,7 @@ export default {
             { 
               if( typeof data === 'object' ) data = JSON.stringify( data );
 
-              $.post( this.posturl , { content: data } , ( data2 ) => 
+              $.post( this.posturl , { content: data , url : now_url } , ( data2 ) => 
               {
                 this.flog = data2 + ' 😶';
               } );

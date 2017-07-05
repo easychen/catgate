@@ -15,7 +15,7 @@ if( strlen( $content ) > 0 )
 	$fname = 'data/' . microtime_float() . '.txt';
 	file_put_contents( $fname ,  $content );
 
-	die('save to ' . $fname );
+	die('save to ' . $fname . ' url = ' . $_REQUEST['url'] );
 }
 else
 {

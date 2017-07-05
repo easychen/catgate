@@ -3,7 +3,7 @@
 
     "name": "CatGate",
     "description": "基于浏览器插件的数据抓取小工具",
-    "version": "0.90",
+    "version": "0.91",
 
     "permissions": [
         "http://*/*","https://*/*",
